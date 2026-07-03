@@ -1,0 +1,19 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Regenerable visual assets (rebuild with generate_slide_assets.py /
+# generate_demo_video.py). The committed demo video is kept.
+poster_*.png
+slide_*.png
+*.gif
+transfer.mp4
+
+# OS / editor
+.DS_Store
+~$*.pptx
+~$*.docx
+~$*.xlsx
